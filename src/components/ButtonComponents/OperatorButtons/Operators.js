@@ -9,7 +9,7 @@ const operators = data.operators;
 
 const Operators = () => {
   // STEP 2 - add the imported data to state
-  [operatorState, setOperatorState] = useState(operators);
+  const [operatorState, setOperatorState] = useState(operators);
   return (
     <div className="operators-container">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

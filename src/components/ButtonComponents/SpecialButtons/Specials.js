@@ -9,7 +9,7 @@ const specials = data.specials;
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-  [specialState, setSpecialState] = useState(specials);
+  const [specialState, setSpecialState] = useState(specials);
   return (
     <div className="specials-container">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
